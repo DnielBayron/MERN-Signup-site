@@ -7,13 +7,17 @@ const app = express();
 const port = 3000;
 
 // connect mongodb 
-mongoose.connect(process.env.MONGO).then( () => {
+mongoose.connect(process.env.MONGO)
+.then( () => {
     console.log('Connected to MongoDB');
 })
 .catch( (err) => {
-    console.log(err);
-})
+    console.log(err)
+});
+
+
+
 
 app.listen(port, () => {
-    console.log(`Server now runnning on port ${port}`);
-})
+    console.log(`Server now runnning on port ${port}`)
+});

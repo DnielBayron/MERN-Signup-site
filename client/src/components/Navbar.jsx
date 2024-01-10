@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="bg-slate-200">
  
-        <div className=" flex justify-between mx-auto max-w-6xl p-3 items-center ">
+        <div className=" flex justify-between mx-auto max-w-6xl p-4 items-center ">
            <Link to={"/"}> <h1 className="text-2xl font-bold"> Mern Auth </h1> </Link>
 
             <ul className="flex gap-4">

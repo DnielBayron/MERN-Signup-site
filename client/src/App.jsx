@@ -4,6 +4,7 @@ import SignIn from './pages/SignIn';
 import About from './pages/About';
 import Profile from './pages/Profile';
 import Navbar from './components/Navbar';
+import SignUp from './pages/SignUp';
 
 function App() {
  
@@ -15,7 +16,8 @@ function App() {
 <Routes>
       <Route path='/' element={<Home />}></Route>
       <Route path='/about' element={<About />}></Route>
-      <Route path='/signin' element={<SignIn />}></Route>
+      <Route path='/sign-in' element={<SignIn />}></Route>
+      <Route path='/sign-up' element={<SignUp />}></Route>
       <Route path='/profile' element={<Profile />}></Route>
 
 </Routes>
